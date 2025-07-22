@@ -1,0 +1,43 @@
+# ===========================================
+# MINIMAL .GITIGNORE FOR COMPLETE PROJECT PUSH
+# ===========================================
+# This .gitignore is configured to push ALL project files
+# including environment variables, keys, and build artifacts
+# to GitHub as requested by the user.
+
+# Only exclude system and temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Editor temporary files (keep settings)
+*~
+.#*
+\#*#
+.*.swp
+.*.swo
+
+# OS generated files
+.DS_Store?
+ehthumbs.db
+Icon?
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# ===========================================
+# INCLUDED FILES (normally excluded):
+# ===========================================
+# ✅ node_modules/ - INCLUDED
+# ✅ .env files - INCLUDED
+# ✅ cache/ - INCLUDED
+# ✅ artifacts/ - INCLUDED
+# ✅ dist/ - INCLUDED
+# ✅ build/ - INCLUDED
+# ✅ All keys and secrets - INCLUDED
+# ✅ All dependencies - INCLUDED
+# ===========================================
