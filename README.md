@@ -100,8 +100,8 @@ Document Upload → OCR Processing → Data Extraction → Hash Generation → B
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/blockklear-frontend.git
-   cd blockklear-frontend
+   git clone https://github.com/didaco97/blockklear
+   cd blockklear
    ```
 
 2. **Install Dependencies**
